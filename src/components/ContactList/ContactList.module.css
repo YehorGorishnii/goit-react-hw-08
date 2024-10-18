@@ -1,0 +1,21 @@
+.box {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+}
+
+.item {
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 260px;
+    height: 80px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 12px;
+
+}

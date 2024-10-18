@@ -1,0 +1,30 @@
+.box {
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.imput {
+    width: 320px;
+    height: 20px;
+}
+
+.error {
+    color: orangered;
+}
